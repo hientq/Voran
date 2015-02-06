@@ -11,3 +11,8 @@
 |
 */
 
+Route::controllers([
+    'questions' => 'QuestionsController',
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
