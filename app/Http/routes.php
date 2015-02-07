@@ -15,12 +15,7 @@
  * Question Routes
  */
 Route::get('/', 'QuestionsController@index');
-Route::get('/questions', 'QuestionsController@index');
-Route::get('/questions/create', 'QuestionsController@create');
-Route::get('/questions/{id}', 'QuestionsController@show');
-Route::post('/questions', 'QuestionsController@store');
-Route::get('/questions/{id}/edit', 'QuestionsController@edit');
-Route::patch('/questions/{id}/edit', 'QuestionsController@update');
+Route::resource('questions', 'QuestionsController');
 
 /*
  * Answer Routes

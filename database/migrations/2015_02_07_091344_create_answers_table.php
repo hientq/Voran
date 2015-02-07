@@ -20,6 +20,10 @@ class CreateAnswersTable extends Migration {
             $table->text('answers');
             $table->boolean('is_solution');
 			$table->timestamps();
+
+            $table->foreign('question_id')->reference('id')->on('questions')->onDelete('cascade');
+            $table->foreign('user_id')->reference('id')->on('users');
+
 		});
 	}
 

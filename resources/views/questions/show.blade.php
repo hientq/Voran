@@ -17,9 +17,9 @@
                             </h2>
                             <small>By: {{ $question->user->username }} - {{ $question->created_at->diffForHumans() }} | Views: {{ $question->views }}</small>
                             @if(Auth::id() == $question->user->id)
-                            <a href="">
-                                <small>Edit</small>
-                            </a>
+                                <a href="{{ action('QuestionsController@edit',[$question->id]) }}">
+                                    <small>Edit</small>
+                                </a>
                             @endif
                             <p>{{ $question->question }}</p>
                         </div>
