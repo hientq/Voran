@@ -40,7 +40,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div style="float:right;">
-                                <a href="">
+                                <a href="{{action('AnswersController@create', [$question->id])}}">
                                     <button class="btn btn-success">Post Answer</button>
                                 </a>
                             </div>
@@ -50,7 +50,22 @@
 
                     <div class="row">
                         <div class="col-md-12">
-                            <!-- answers go here -->
+                            @foreach($question->answers()->oldest()->get() as $answer)
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <hr/>
+                                    <p>{{ $answer->answer }}</p>
+                                    <small>By: {{ $answer->user->username }} - {{ $answer->created_at->diffForHumans() }} </small>
+                                    @if($answer->user->id == Auth::id())
+                                    <small>
+                                        <a href="{{ action('AnswersController@edit', [$question->id, $answer->id]) }}">
+                                            Edit
+                                        </a>
+                                    </small>
+                                    @endif
+                                </div>
+                            </div>
+                            @endforeach
                         </div>
                     </div>
 

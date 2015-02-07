@@ -20,6 +20,10 @@ Route::resource('questions', 'QuestionsController');
 /*
  * Answer Routes
  */
+Route::get('/answers/create/{question}', 'AnswersController@create');
+Route::post('/answers/create/{question}', 'AnswersController@store');
+Route::get('/answers/create/{question}/{answer}', 'AnswersController@edit');
+Route::patch('/answers/create/{question}/{answer}', 'AnswersController@update');
 
 /*
  * Profile Routes

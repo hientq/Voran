@@ -16,7 +16,7 @@ class Answer extends Model {
      *
      * @var array
      */
-    protected $fillable = ['answer', 'is_solution'];
+    protected $fillable = ['answer'];
 
     /**
      * The attributes excluded from the model's JSON form.

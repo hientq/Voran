@@ -30,8 +30,9 @@
                                     {{ $question->title }}
                                 </h2>
                             </a>
-                            <small>By: {{ $question->user->username }} - {{ $question->created_at->diffForHumans() }} | Views: {{ $question->views }}</small>
+                            <small>By: {{ $question->user->username }} - {{ $question->created_at->diffForHumans() }}</small>
                             <p>{{ $question->question }}</p>
+                            <small>Views: {{ $question->views }} | Answers: {{ $question->answers()->count() }}</small>
                         </div>
                     </div>
                     @endforeach
