@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Questions extends Model {
+class Question extends Model {
 
     /**
      * The database table used by the model.
@@ -25,7 +25,17 @@ class Questions extends Model {
      */
     protected $hidden = [];
 
-    public function users() {
-        return $this->belongsTo('App\Users');
+    public function user() {
+        return $this->belongsTo('App\User');
+    }
+
+    public function answers() {
+        return $this->hasMany('App\Answer');
+    }
+
+    public function startValues() {
+        $this->views = 0;
+        $this->is_active = 1;
+        $this->is_solved = 0;
     }
 }
