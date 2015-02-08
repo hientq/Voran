@@ -11,7 +11,7 @@
                 </div>
                 <div class="panel-body">
 
-                    @include('errors.uierrors')
+                    @include('errors.list')
 
                     {!! Form::open(['action' => 'QuestionsController@store']) !!}
 

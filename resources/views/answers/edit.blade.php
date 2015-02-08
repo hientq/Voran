@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="col-md-12">
 
-                            @include('errors.uierrors')
+                            @include('errors.list')
 
                             {!! Form::model($answer, ['method' => 'PATCH', 'action' => ['AnswersController@update', $question->id, $answer->id]]) !!}
 

@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="col-md-12">
 
-                            @include('errors.uierrors')
+                            @include('errors.list')
 
                             {!! Form::open(['action' => ['AnswersController@store', $question->id]]) !!}
 
