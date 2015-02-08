@@ -61,10 +61,8 @@ class QuestionsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id, Guard $guard)
+	public function show(Question $question, Guard $guard)
 	{
-        $question = Question::find($id);
-
         if($guard->id() != $question->user->id) {
             $question['views'] = $question['views'] + 1;
             $question->update();
@@ -81,9 +79,9 @@ class QuestionsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(Question $question)
 	{
-		$this->pg_data['question'] = Question::findOrFail($id);
+		$this->pg_data['question'] = $question;
         return view('questions.edit',$this->pg_data);
 	}
 
@@ -93,10 +91,8 @@ class QuestionsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, EditQuestionRequest $request)
+	public function update(Question $question, EditQuestionRequest $request)
 	{
-        echo "hey";
-		$question = Question::findOrFail($id);
         $question['title'] = $request['title'];
         $question['question'] = $request['question'];
         $question->update();
@@ -110,8 +106,9 @@ class QuestionsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+    public function destroy(Question $question)
 	{
+
 		//
 	}
 
