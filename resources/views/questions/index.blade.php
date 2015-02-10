@@ -27,6 +27,9 @@
                             <hr/>
                             <a href="{{action('QuestionsController@show', [$question->id])}}">
                                 <h2>
+                                    @if($question->answers->where('is_solution', 1)->count() > 0)
+                                    [SOLVED]
+                                    @endif
                                     {{ $question->title }}
                                 </h2>
                             </a>

@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Answer;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Question;
@@ -70,6 +71,13 @@ class QuestionsController extends Controller {
 
         $this->pg_data['question'] = $question;
 
+        //i feel there is a better way to do this
+        if($question->answers->where('is_solution', 1)->count() > 0) {
+            $this->pg_data['solution'] = $question->answers->where('is_solution', 1)->first();
+        }else {
+            $this->pg_data['solution'] = null;
+        }
+
         return view('questions.show', $this->pg_data);
 	}
 
@@ -111,5 +119,19 @@ class QuestionsController extends Controller {
 
 		//
 	}
+
+    /**
+     * @param Question $question
+     * @param Answer $answer
+     *
+     */
+    public function solved(Question $question, Answer $answer) {
+        $question['is_solved'] = 1;
+        $question->update();
+        $answer['is_solution'] = 1;
+        $answer->update();
+
+        return redirect('/questions/' . $question->id);
+    }
 
 }

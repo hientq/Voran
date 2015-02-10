@@ -15,16 +15,16 @@
     <file path="/register.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423250338109" ignored="false" />
     <file path="/AuthenticatesAndRegistersUsers.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423254076071" ignored="false" />
     <file path="/app.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423307609761" ignored="false" />
-    <file path="/QuestionsController.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423414379831" ignored="false" />
+    <file path="/QuestionsController.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423540085972" ignored="false" />
     <file path="/helpers.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423254182720" ignored="false" />
     <file path="/Factory.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423254400552" ignored="false" />
     <file path="/a.dummy" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423413773582" ignored="false" />
-    <file path="/routes.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423312259914" ignored="false" />
-    <file path="/index.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423315183883" ignored="false" />
+    <file path="/routes.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423536942934" ignored="false" />
+    <file path="/index.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423540321765" ignored="false" />
     <file path="/Answer.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423300530040" ignored="false" />
-    <file path="/show.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423314950402" ignored="false" />
+    <file path="/show.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423540226444" ignored="false" />
     <file path="/create.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423413273796" ignored="false" />
-    <file path="/Question.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423305884255" ignored="false" />
+    <file path="/Question.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423539257359" ignored="false" />
     <file path="/CreateQuestionRequest.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423306599941" ignored="false" />
     <file path="/edit.blade.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423315083618" ignored="false" />
     <file path="/EditQuestionRequest.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423311116915" ignored="false" />
@@ -32,6 +32,7 @@
     <file path="/AnswersController.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423414480748" ignored="false" />
     <file path="$PROJECT_DIR$/storage/framework/sessions/e98508c4cf80edc9d3f23279bfa0d04a70c6de67" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423313667032" ignored="false" />
     <file path="/RouteServiceProvider.php" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423414206348" ignored="false" />
+    <file path="/dummy.xml" changelist="f3c4ec6c-1a1c-475d-ae0a-430e6283d458" time="1423537403084" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,42 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/reset.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="289" selection-end="289" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="password.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedirectIfAuthenticated.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="133" selection-end="156" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Kernel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +73,7 @@
       <file leaf-file-name="RouteServiceProvider.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="47" selection-start="768" selection-end="768" vertical-scroll-proportion="-7.75">
+            <state line="28" column="44" selection-start="759" selection-end="765" vertical-scroll-proportion="-7.75">
               <folding />
             </state>
           </provider>
@@ -117,7 +82,7 @@
       <file leaf-file-name="Question.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.625">
+            <state line="39" column="5" selection-start="814" selection-end="814" vertical-scroll-proportion="-16.416666">
               <folding />
             </state>
           </provider>
@@ -126,18 +91,57 @@
       <file leaf-file-name="QuestionsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="4" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-2.125">
+            <state line="74" column="8" selection-start="1714" selection-end="1774" vertical-scroll-proportion="-11.25">
               <folding>
-                <element signature="e#39#61#0" expanded="true" />
+                <element signature="e#39#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswersController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/questions/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="44" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.38715953">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015_02_05_212835_create_questions_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_05_212835_create_questions_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="38" selection-start="549" selection-end="558" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="41" selection-start="2746" selection-end="2746" vertical-scroll-proportion="-9.625">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="45" selection-start="465" selection-end="548" vertical-scroll-proportion="-1.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.95327103">
+            <state line="40" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="-12.75">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -155,10 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Requests/AnswerRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/questions/index.blade.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/answers/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/answers/edit.blade.php" />
@@ -169,8 +169,12 @@
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Question.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/questions/index.blade.php" />
       </list>
     </option>
   </component>
@@ -233,7 +237,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,7 +446,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1904376" sideWeight="0.67232597" order="0" side_tool="false" content_ui="combo" />
@@ -416,41 +524,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="369" selection-end="369" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="67" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-21.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1898" selection-end="1898" vertical-scroll-proportion="-29.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="277" selection-end="321" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/password.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="-8.75">
@@ -500,35 +573,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="-12.75">
+          <folding>
+            <element signature="e#39#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_05_212835_create_questions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="549" selection-end="558" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_07_091344_create_answers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="521" selection-end="532" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="768" selection-end="768" vertical-scroll-proportion="-7.75">
+        <state line="28" column="44" selection-start="759" selection-end="765" vertical-scroll-proportion="-7.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="45" selection-start="465" selection-end="548" vertical-scroll-proportion="-1.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.625">
+        <state line="39" column="5" selection-start="814" selection-end="814" vertical-scroll-proportion="-16.416666">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="41" selection-start="2746" selection-end="2746" vertical-scroll-proportion="-9.625">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="4" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-2.125">
+        <state line="74" column="8" selection-start="1714" selection-end="1774" vertical-scroll-proportion="-11.25">
           <folding>
-            <element signature="e#39#61#0" expanded="true" />
+            <element signature="e#39#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/questions/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.95327103">
-          <folding>
-            <element signature="e#39#54#0" expanded="true" />
-          </folding>
+        <state line="30" column="44" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.38715953">
+          <folding />
         </state>
       </provider>
     </entry>

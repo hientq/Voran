@@ -15,6 +15,7 @@
  * Question Routes
  */
 Route::get('/', 'QuestionsController@index');
+Route::get('/questions/solved/{question}/{answer}', 'QuestionsController@solved');
 Route::resource('questions', 'QuestionsController');
 
 /*
